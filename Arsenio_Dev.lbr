@@ -511,25 +511,27 @@
 <wire x1="5.4" y1="-3" x2="5.4" y2="3" width="0.127" layer="21"/>
 <wire x1="5.4" y1="3" x2="-5.6" y2="3" width="0.127" layer="21"/>
 <wire x1="-5.6" y1="3" x2="-5.6" y2="-3" width="0.127" layer="21"/>
-<pad name="P$1" x="-5.6" y="2" drill="1.1684" rot="R90"/>
-<pad name="P$2" x="5.4" y="2" drill="1.1684" rot="R90"/>
-<pad name="RESET" x="3.4" y="-2" drill="0.635" shape="octagon" rot="R90"/>
-<pad name="SDA" x="1.4" y="-2" drill="0.635" shape="octagon" rot="R90"/>
-<pad name="NC" x="-0.6" y="-2" drill="0.635" shape="octagon" rot="R90"/>
-<pad name="$GND" x="-2.6" y="-2" drill="0.635" shape="octagon" rot="R90"/>
-<pad name="VCC" x="-3.6" y="0" drill="0.635" shape="octagon"/>
-<pad name="GND" x="-1.6" y="0" drill="0.635" shape="octagon"/>
-<pad name="SCL" x="0.4" y="0" drill="0.635" shape="octagon"/>
-<pad name="CLK" x="2.4" y="0" drill="0.635" shape="octagon"/>
+<pad name="RESET" x="3.4" y="-2" drill="0.508" shape="octagon" rot="R90"/>
+<pad name="SDA" x="1.4" y="-2" drill="0.508" shape="octagon" rot="R90"/>
+<pad name="NC" x="-0.6" y="-2" drill="0.508" shape="octagon" rot="R90"/>
+<pad name="$GND" x="-2.6" y="-2" drill="0.508" shape="octagon" rot="R90"/>
+<pad name="VCC" x="-3.6" y="0" drill="0.508" shape="octagon"/>
+<pad name="GND" x="-1.6" y="0" drill="0.508" shape="octagon"/>
+<pad name="SCL" x="0.4" y="0" drill="0.508" shape="octagon"/>
+<pad name="CLK" x="2.4" y="0" drill="0.508" shape="octagon"/>
 <text x="-3.1" y="-4" size="0.6096" layer="21">PIXART IR CAMERA</text>
 <text x="-1.6" y="3" size="0.6096" layer="21" rot="R90">-&gt;</text>
 <text x="2.4" y="3" size="0.6096" layer="21" rot="R90">-&gt;</text>
-<hole x="-2.6" y="2" drill="1.143"/>
-<hole x="2.4" y="2" drill="1.143"/>
-<text x="-4.5" y="-0.5" size="1" layer="22" rot="MR0">1</text>
-<text x="-4" y="-2.5" size="1" layer="21" rot="MR0">2</text>
-<text x="4.5" y="-0.5" size="1" layer="21" rot="MR0">7</text>
-<text x="5" y="-2.5" size="1" layer="21" rot="MR0">8</text>
+<hole x="-2.6" y="2" drill="1.1684"/>
+<hole x="1.4" y="2" drill="1.1684"/>
+<text x="-4.1825" y="-0.5" size="1" layer="22" rot="MR0">1</text>
+<text x="-3.365" y="-2.5" size="1" layer="22" rot="MR0">2</text>
+<text x="3.865" y="-0.5" size="1" layer="22" rot="MR0">7</text>
+<text x="5" y="-2.5" size="1" layer="22" rot="MR0">8</text>
+<hole x="-5.6" y="2" drill="2"/>
+<smd name="P$3" x="-5.6" y="2" dx="3.81" dy="1.9304" layer="16" roundness="90" rot="R90"/>
+<smd name="P$1" x="5.4" y="2" dx="3.81" dy="1.9304" layer="16" roundness="90" rot="R90"/>
+<hole x="5.4" y="2" drill="2"/>
 </package>
 </packages>
 <symbols>
