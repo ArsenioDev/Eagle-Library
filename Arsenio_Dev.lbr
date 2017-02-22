@@ -1975,7 +1975,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 </devices>
 </deviceset>
 <deviceset name="PIXART_IR_CAMERA">
-<description>PixArt MOT from Genuine Wiimotes. I2C interface @ 3.3v logic</description>
+<description>PixArt MOT from Genuine RVL-003 Wiimote. I2C interface @ 3.3v logic</description>
 <gates>
 <gate name="G$1" symbol="PIXART_IR_CAMERA" x="0" y="5.08"/>
 </gates>
@@ -1999,7 +1999,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 </deviceset>
 <deviceset name="PAJ7025R2">
 <description>PixArt Multi Object Tracker
-with SPI interface</description>
+with SPI interface.     Used in RVLAPNxx Wii remotes</description>
 <gates>
 <gate name="G$1" symbol="PAJ7025R2" x="12.7" y="2.54"/>
 </gates>
